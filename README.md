@@ -8,6 +8,20 @@ $ github-limited -t token
 $ github-limited -c client_id client_secret
 ```
 
+Example output:
+
+```console
+core:
+  remaining: 12479 of 12500
+  reset: in 18 minutes
+search:
+  remaining: 30 of 30
+  reset: in a minute
+graphql:
+  remaining: 5000 of 5000
+  reset: in an hour
+```
+
 Installation
 ------------
 
