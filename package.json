@@ -1,0 +1,46 @@
+{
+  "name": "github-limited",
+  "description": "Command-line utility for troubleshooting GitHub rate limits",
+  "keywords": [
+    "github",
+    "limit",
+    "ratelimit",
+    "cli"
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "github-limited.js",
+  "bin": {
+    "github-limited": "cli.js"
+  },
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:paulmelnikow/github-limited.git"
+  },
+  "homepage": "https://github.com/paulmelnikow/github-limited",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "gh-rate-limit": "^1.0.0",
+    "js-yaml": "^3.10.0",
+    "lodash.mapvalues": "^4.6.0",
+    "moment": "^2.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "1.7.4"
+  },
+  "engines": {
+    "node": "8.x | 9.x"
+  }
+}
