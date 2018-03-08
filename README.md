@@ -1,6 +1,8 @@
 github-limited
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/paulmelnikow/github-limited.svg)](https://greenkeeper.io/)
+
 Command-line utility for troubleshooting Github rate limits.
 
 ```console
