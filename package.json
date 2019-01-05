@@ -1,12 +1,7 @@
 {
   "name": "github-limited",
   "description": "Command-line utility for troubleshooting GitHub rate limits",
-  "keywords": [
-    "github",
-    "limit",
-    "ratelimit",
-    "cli"
-  ],
+  "keywords": ["github", "limit", "ratelimit", "cli"],
   "version": "0.1.0",
   "license": "MIT",
   "main": "github-limited.js",
@@ -14,14 +9,12 @@
     "github-limited": "cli.js"
   },
   "scripts": {
-    "lint": "eslint '**/*.js'",
-    "test": "npm run lint"
+    "lint": "eslint \"**/*.js\"",
+    "prettier-check": "prettier-check \"**/*.@(js|yml|md|json)\"",
+    "prettier": "prettier --write \"**/*.@(js|yml|md|json)\"",
+    "test": "run-p --continue-on-error lint prettier-check"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:paulmelnikow/github-limited.git"
-  },
-  "homepage": "https://github.com/paulmelnikow/github-limited",
+  "repository": "paulmelnikow/github-limited",
   "dependencies": {
     "argparse": "^1.0.9",
     "gh-rate-limit": "^1.0.0",
@@ -38,7 +31,9 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^3.0.1",
-    "prettier": "1.7.4"
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.15.3",
+    "prettier-check": "^2.0.0"
   },
   "engines": {
     "node": "8.x | 9.x"
