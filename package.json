@@ -7,7 +7,7 @@
     "ratelimit",
     "cli"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "github-limited.js",
   "bin": {
@@ -19,6 +19,9 @@
     "prettier": "prettier --write \"**/*.@(js|yml|md|json)\"",
     "test": "run-p --continue-on-error lint prettier-check"
   },
+  "files": [
+    "**/*.js"
+  ],
   "repository": "paulmelnikow/github-limited",
   "dependencies": {
     "argparse": "^1.0.9",
