@@ -1,7 +1,12 @@
 {
   "name": "github-limited",
   "description": "Command-line utility for troubleshooting GitHub rate limits",
-  "keywords": ["github", "limit", "ratelimit", "cli"],
+  "keywords": [
+    "github",
+    "limit",
+    "ratelimit",
+    "cli"
+  ],
   "version": "0.1.0",
   "license": "MIT",
   "main": "github-limited.js",
