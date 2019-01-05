@@ -1,5 +1,4 @@
-github-limited
-==============
+# github-limited
 
 Command-line utility for troubleshooting Github rate limits.
 
@@ -22,8 +21,7 @@ graphql:
   reset: in an hour
 ```
 
-Installation
-------------
+## Installation
 
 Requires Node 8+.
 
@@ -31,23 +29,17 @@ Requires Node 8+.
 npm install -g github-limited
 ```
 
-
-Contribute
-----------
+## Contribute
 
 - Issue Tracker: https://github.com/paulmelnikow/github-limited/issues
 - Source Code: https://github.com/paulmelnikow/github-limited
 
 Pull requests welcome!
 
-
-Support
--------
+## Support
 
 If you are having issues, please let me know.
 
-
-License
--------
+## License
 
 The project is licensed under the MIT license.
