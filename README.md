@@ -1,5 +1,14 @@
 # github-limited
 
+[![version](https://img.shields.io/npm/v/github-limited.svg?style=flat-square)][npm]
+[![license](https://img.shields.io/npm/l/github-limited.svg?style=flat-square)][npm]
+[![build](https://img.shields.io/circleci/project/github/paulmelnikow/github-limited.svg?style=flat-square)][build]
+[![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)][prettier]
+
+[npm]: https://npmjs.com/github-limited/
+[build]: https://circleci.com/gh/paulmelnikow/github-limited/tree/master
+[prettier]: https://prettier.io/
+
 Command-line utility for troubleshooting Github rate limits.
 
 ```console
