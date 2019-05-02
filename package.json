@@ -15,7 +15,7 @@
   },
   "scripts": {
     "lint": "eslint \"**/*.js\"",
-    "prettier-check": "prettier-check \"**/*.@(js|yml|md|json)\"",
+    "prettier:check": "prettier --check \"**/*.@(js|yml|md|json)\"",
     "prettier": "prettier --write \"**/*.@(js|yml|md|json)\"",
     "test": "run-p --continue-on-error lint prettier-check"
   },
@@ -40,10 +40,9 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.15.3",
-    "prettier-check": "^2.0.0"
+    "prettier": "^1.15.3"
   },
   "engines": {
-    "node": "8.x | 9.x"
+    "node": ">= 8.x"
   }
 }
