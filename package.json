@@ -24,7 +24,7 @@
   ],
   "repository": "paulmelnikow/github-limited",
   "dependencies": {
-    "argparse": "^1.0.9",
+    "argparse": "^2.0.1",
     "gh-rate-limit": "^1.0.0",
     "js-yaml": "^3.10.0",
     "lodash.mapvalues": "^4.6.0",
